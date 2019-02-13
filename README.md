@@ -18,13 +18,13 @@ Pasos para probar la aplicación:
 
 Tenemos que editar el fichero script_creacion_base_datos_y_usuario.sql y cambiar la contraseña.
 
-luegoo ejecutar :
+luego ejecutar :
 
 ```
 psql -U postgres -f script_creacion_base_datos_y_usuario.sql
 ```
 
-Para ver la base detos entrar con el comando:
+Para ver la base de datos entrar con el comando:
 
 ```
 psql -U dgtuser -d dgtdb
